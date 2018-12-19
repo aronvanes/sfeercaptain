@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  .outer-container
+    .container
+      h1= title
+      p Welcome to #{title}
+      div
+        img(src="/images/logo.svg" height="150" width="150")
+      p KV Mechelen
+      div.login
+        a.borderLink(href='/register') register
+        a.borderLink(href='/login') login
+      a.adminLink(href='/admin') hier aanmelden als sfeercaptain
+
+
+
+   
+

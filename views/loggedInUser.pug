@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  header
+    h1.pagename Welkom #{name}
+  div.timer
+    h1#timertext
+    h1#timer_div
+  div#functionShow.functions
+
+
+
+  script(src='/primus/primus.js')
+  script(src="/javascripts/socketUser.js")

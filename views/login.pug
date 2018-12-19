@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  header
+    h1.pagename Login
+
+  if message.length > 0
+    div#alert=message
+  form.register(action='/login', method='post')
+    div#naam.input
+      label(for='naam') Naam:
+      input(type='text', name='naam')
+    div#email.input
+      label(for='email') Email:
+      input(type='email', name='email')
+    button.submit(type='submit') Login

@@ -1,0 +1,151 @@
+.outer-container {
+  background-image: url("../images/background-register.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; }
+  .outer-container h1 {
+    color: #f8f800; }
+  .outer-container p {
+    color: #f8f800; }
+  .outer-container .adminLink {
+    text-decoration: underline;
+    font-size: 0.8em; }
+  .outer-container .login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0.5em; }
+  .outer-container .borderLink {
+    border: solid #f8f800 3px;
+    margin: 0.3em; }
+
+.seizoenspas {
+  color: black; }
+
+header {
+  display: flex;
+  justify-content: center;
+  background-image: url("../images/header.png");
+  align-content: center;
+  margin-bottom: 2em;
+  height: 130px;
+  background-repeat: no-repeat; }
+
+.register {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-left: 3em;
+  margin-right: 3em; }
+
+.input {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-bottom: 2px solid red;
+  padding-bottom: 0.5em; }
+
+input {
+  border: none;
+  background-color: #FFFFFF;
+  margin-left: 0.5em;
+  padding: 0.5em; }
+
+.functions {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 1.2em;
+  justify-content: center; }
+
+.image {
+  width: 50%;
+  height: auto;
+  position: absolute;
+  margin-top: 40%;
+  margin-left: 20%;
+  z-index: 1000; }
+
+.timer {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row; }
+
+.containerbtn {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center; }
+
+.containerbtn > .btn {
+  display: flex;
+  flex-basis: calc(50% - 40px);
+  justify-content: center;
+  flex-direction: column; }
+
+.containerbtn > .btn > .btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: row; }
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin: 20px;
+  height: 25vh;
+  width: 25vw;
+  border-radius: 12px;
+  color: #ffffff;
+  font-size: 6vw;
+  background: #ed2d17;
+  text-decoration: none;
+  cursor: pointer; }
+
+html {
+  height: 100vh; }
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #FFFFFF;
+  color: black;
+  height: 100vh; }
+
+a {
+  color: #f8f800;
+  text-decoration: none;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  font-size: 2em; }
+
+h1 {
+  color: black;
+  font-size: 2em; }
+
+p {
+  color: black;
+  font-size: 1.3em;
+  margin-top: 1em; }
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center; }
+
+.pagename {
+  color: #f8f800; }
+
+.submit {
+  border: none;
+  background-color: red;
+  color: #f8f800;
+  border-radius: 5px;
+  height: 3em;
+  margin-top: 1em;
+  font-size: 1.2em; }
+
+/*# sourceMappingURL=style.css.map */

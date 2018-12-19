@@ -1,0 +1,60 @@
+
+$appbackground: #FFFFFF
+
+$inlogtext: #f8f800
+@import "index"
+@import "register"
+@import "user"
+@import "admin"
+
+html
+  height: 100vh
+
+
+body
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif
+  background-color: $appbackground
+  color: black
+  height: 100vh
+
+
+a
+  color: $inlogtext
+  text-decoration: none
+  padding-left: 0.5em
+  padding-right: 0.5em
+  padding-top: 0.2em
+  padding-bottom: 0.2em
+  font-size: 2em
+
+h1
+  color: black
+  font-size: 2em
+
+
+p
+  color: black
+  font-size: 1.3em
+  margin-top: 1em
+
+
+.container
+  display: flex
+  justify-content: center
+  flex-flow: column
+  align-items: center
+
+.pagename
+  color: $inlogtext
+
+.submit
+  border: none
+  background-color: red
+  color: $inlogtext
+  border-radius: 5px
+  height: 3em
+  margin-top: 1em
+  font-size: 1.2em
+
+
+

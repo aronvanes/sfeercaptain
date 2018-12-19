@@ -1,0 +1,44 @@
+{
+  "name": "de12deman",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "./bin/www"
+  },
+  "engines": {
+    "node": "6.10.2"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "~1.17.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "express-session": "^1.15.2",
+    "express-validator": "^3.2.0",
+    "flash": "^1.1.0",
+    "mongoose": "^4.9.8",
+    "morgan": "~1.8.1",
+    "node-sass-middleware": "0.9.8",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "primus": "^7.0.2",
+    "pug": "~2.0.0-beta11",
+    "serve-favicon": "~2.4.2",
+    "ws": "^3.0.0"
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HannaWalgrave/sfeercaptain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HannaWalgrave/sfeercaptain/issues"
+  },
+  "homepage": "https://github.com/HannaWalgrave/sfeercaptain#readme",
+  "description": ""
+}

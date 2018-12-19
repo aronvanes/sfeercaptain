@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  header
+    h1.pagename Login
+  form.register(action='/admin', method='post')
+    div#adnaam.input
+      label(for='adnaam') naam
+      input(type='text', name='adnaam')
+    div#pass.input
+      label(for='pass') password
+      input(type='text', name='pass')
+    button.submit(type='submit') Login
